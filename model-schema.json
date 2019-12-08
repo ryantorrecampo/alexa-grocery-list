@@ -1,0 +1,81 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "coolteam fourteen",
+      "intents": [{
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GreetingIntent",
+          "slots": [],
+          "samples": [
+            "What's up",
+            "Hi",
+            "Hello"
+          ]
+        },
+        {
+          "name": "AddItemIntent",
+          "slots": [{
+            "name": "Item",
+            "type": "AMAZON.Food"
+          }],
+          "samples": [
+            "put {Item}",
+            "add {Item}",
+            "Put {Item} on my list",
+            "Add {Item} to the list"
+          ]
+        },
+        {
+          "name": "RemoveItemIntent",
+          "slots": [{
+            "name": "Item",
+            "type": "AMAZON.Food"
+          }],
+          "samples": [
+            "Take off {Item} from my list",
+            "Take out {Item} from my list",
+            "remove {Item} from my list",
+            "delete {Item}",
+            "Pull out {Item}",
+            "Remove {Item}"
+          ]
+        },
+        {
+          "name": "ViewListIntent",
+          "slots": [],
+          "samples": [
+            "View list",
+            "Read my list to me",
+            "Tell me what I have on my list",
+            "What's on the list"
+          ]
+        },
+        {
+          "name": "ClearListIntent",
+          "slots": [],
+          "samples": [
+            "Remove everything off of my list",
+            "Remove all",
+            "Clear my list"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
